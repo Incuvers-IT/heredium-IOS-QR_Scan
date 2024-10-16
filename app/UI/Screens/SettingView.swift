@@ -105,7 +105,7 @@ struct SettingView: View {
                 }
                
                 
-                DelayedNavigationLink(destination: QRView().navigationBarHidden(true)){
+                DelayedNavigationLink(destination: ScanQRView().navigationBarHidden(true)){
                     Text("완료")
                         .font(Font.custom(Constants.fontBold, size:14))
                         .foregroundColor(Color("white"))

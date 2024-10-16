@@ -28,3 +28,4 @@ extension LogInfo {
 extension LogInfo : Identifiable {
 
 }
+	

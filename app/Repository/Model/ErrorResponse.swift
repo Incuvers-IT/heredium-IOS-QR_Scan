@@ -66,6 +66,28 @@ extension AnyValue {
     }
 }
 
+enum APIError: LocalizedError {
+    case invalidRequest
+    case invalidResponse
+    case serverError(ErrorData)
+    case unexpected(Error)
+    case emptyData(HTTPURLResponse?)
+    case unauthorized
+    
+    var errorDescription: String? {
+        switch self {
+        case let .serverError(reason):
+            return reason.BODY
+        case .unauthorized:
+            return "Phiên của bạn đã hết hạn!"
+        case .invalidResponse,
+             .invalidRequest,
+             .unexpected,
+             .emptyData:
+            return "Oops! Đã xảy ra lỗi. Chúng tôi không thể hoàn thành yêu cầu của bạn"
+        }
+    }
+}
 
 // MARK: - ErrorData
 struct ErrorData: Codable {

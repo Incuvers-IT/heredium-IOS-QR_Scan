@@ -49,7 +49,6 @@
 		189CFFB429B6E6C1008F0A3B /* Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFFB329B6E6C1008F0A3B /* Projects.swift */; };
 		189CFFB629B759C4008F0A3B /* Allow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFFB529B759C4008F0A3B /* Allow.swift */; };
 		189CFFC029B89A97008F0A3B /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 189CFFBE29B89A97008F0A3B /* CoreData.xcdatamodeld */; };
-		189CFFC729B8A30B008F0A3B /* LogInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFFC529B8A30B008F0A3B /* LogInfo+CoreDataClass.swift */; };
 		189CFFC829B8A30B008F0A3B /* LogInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFFC629B8A30B008F0A3B /* LogInfo+CoreDataProperties.swift */; };
 		189CFFCA29B8A4B8008F0A3B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFFC929B8A4B8008F0A3B /* CoreDataManager.swift */; };
 		189CFFCC29B9A2A2008F0A3B /* DelayedNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFFCB29B9A2A2008F0A3B /* DelayedNavigationLink.swift */; };
@@ -57,6 +56,12 @@
 		189CFFD429B9D594008F0A3B /* qr_check.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 189CFFD329B9D594008F0A3B /* qr_check.mp3 */; };
 		189CFFD629B9D5A0008F0A3B /* qr_fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 189CFFD529B9D5A0008F0A3B /* qr_fail.mp3 */; };
 		189CFFD829B9DA50008F0A3B /* PlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFFD729B9DA50008F0A3B /* PlayViewModel.swift */; };
+		E323712F2CBE672400CF8A8A /* LogInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E323712E2CBE672400CF8A8A /* LogInfo+CoreDataClass.swift */; };
+		E3AD5CDE2CBF5AB00090E12A /* ScanQRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD5CDD2CBF5AB00090E12A /* ScanQRView.swift */; };
+		E3AD5CE02CBF5ABE0090E12A /* ScanQRViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD5CDF2CBF5ABE0090E12A /* ScanQRViewModel.swift */; };
+		E3AD5CE32CBF6AAB0090E12A /* CouponDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD5CE22CBF6AAB0090E12A /* CouponDetailView.swift */; };
+		E3AD5CE52CBF6AB60090E12A /* CouponDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD5CE42CBF6AB60090E12A /* CouponDetailViewModel.swift */; };
+		E3AD5D392CBF727C0090E12A /* CouponModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD5D382CBF727C0090E12A /* CouponModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,7 +109,6 @@
 		189CFFB329B6E6C1008F0A3B /* Projects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects.swift; sourceTree = "<group>"; };
 		189CFFB529B759C4008F0A3B /* Allow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allow.swift; sourceTree = "<group>"; };
 		189CFFBF29B89A97008F0A3B /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
-		189CFFC529B8A30B008F0A3B /* LogInfo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
 		189CFFC629B8A30B008F0A3B /* LogInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		189CFFC929B8A4B8008F0A3B /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		189CFFCB29B9A2A2008F0A3B /* DelayedNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayedNavigationLink.swift; sourceTree = "<group>"; };
@@ -112,6 +116,12 @@
 		189CFFD329B9D594008F0A3B /* qr_check.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = qr_check.mp3; path = app/qr_check.mp3; sourceTree = "<group>"; };
 		189CFFD529B9D5A0008F0A3B /* qr_fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = qr_fail.mp3; path = app/qr_fail.mp3; sourceTree = "<group>"; };
 		189CFFD729B9DA50008F0A3B /* PlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewModel.swift; sourceTree = "<group>"; };
+		E323712E2CBE672400CF8A8A /* LogInfo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E3AD5CDD2CBF5AB00090E12A /* ScanQRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRView.swift; sourceTree = "<group>"; };
+		E3AD5CDF2CBF5ABE0090E12A /* ScanQRViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRViewModel.swift; sourceTree = "<group>"; };
+		E3AD5CE22CBF6AAB0090E12A /* CouponDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponDetailView.swift; sourceTree = "<group>"; };
+		E3AD5CE42CBF6AB60090E12A /* CouponDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponDetailViewModel.swift; sourceTree = "<group>"; };
+		E3AD5D382CBF727C0090E12A /* CouponModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +140,8 @@
 		18212B0029ADF68C00580FD7 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				E3AD5CE12CBF6A940090E12A /* CouponDetail */,
+				E3AD5CDC2CBF5A880090E12A /* ScanQR */,
 				185BC621293DE42C00243308 /* LaunchScreenView.swift */,
 				18212AFA29ADE0CD00580FD7 /* SettingView.swift */,
 				18212AFC29ADF62E00580FD7 /* QRView.swift */,
@@ -155,7 +167,7 @@
 			children = (
 				189CFFD529B9D5A0008F0A3B /* qr_fail.mp3 */,
 				189CFFD329B9D594008F0A3B /* qr_check.mp3 */,
-				189CFFC529B8A30B008F0A3B /* LogInfo+CoreDataClass.swift */,
+				E323712E2CBE672400CF8A8A /* LogInfo+CoreDataClass.swift */,
 				189CFFC629B8A30B008F0A3B /* LogInfo+CoreDataProperties.swift */,
 				189CFFBE29B89A97008F0A3B /* CoreData.xcdatamodeld */,
 				189CFFA529B6D8A9008F0A3B /* Launch Screen.storyboard */,
@@ -268,8 +280,27 @@
 				189CFFB329B6E6C1008F0A3B /* Projects.swift */,
 				189CFFB529B759C4008F0A3B /* Allow.swift */,
 				189CFFCD29B9A626008F0A3B /* QRResult.swift */,
+				E3AD5D382CBF727C0090E12A /* CouponModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E3AD5CDC2CBF5A880090E12A /* ScanQR */ = {
+			isa = PBXGroup;
+			children = (
+				E3AD5CDD2CBF5AB00090E12A /* ScanQRView.swift */,
+				E3AD5CDF2CBF5ABE0090E12A /* ScanQRViewModel.swift */,
+			);
+			path = ScanQR;
+			sourceTree = "<group>";
+		};
+		E3AD5CE12CBF6A940090E12A /* CouponDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E3AD5CE22CBF6AAB0090E12A /* CouponDetailView.swift */,
+				E3AD5CE42CBF6AB60090E12A /* CouponDetailViewModel.swift */,
+			);
+			path = CouponDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,6 +400,7 @@
 				18212B1129B590E600580FD7 /* BarcodeFrame.swift in Sources */,
 				1886616D293E26FF0040841F /* LoadingScreenView.swift in Sources */,
 				18212B1529B5911900580FD7 /* CBScanner.swift in Sources */,
+				E323712F2CBE672400CF8A8A /* LogInfo+CoreDataClass.swift in Sources */,
 				1853BD2729486B8800EBAC15 /* MyToastView.swift in Sources */,
 				1886616B293E26E40040841F /* LoadingIndicatorView.swift in Sources */,
 				1853BD29294871DE00EBAC15 /* CustomAlert.swift in Sources */,
@@ -380,16 +412,20 @@
 				18212AFF29ADF64A00580FD7 /* LogView.swift in Sources */,
 				189CFFA929B6E212008F0A3B /* Repository.swift in Sources */,
 				189CFFC029B89A97008F0A3B /* CoreData.xcdatamodeld in Sources */,
+				E3AD5CDE2CBF5AB00090E12A /* ScanQRView.swift in Sources */,
 				189CFFCE29B9A626008F0A3B /* QRResult.swift in Sources */,
 				189CFFB429B6E6C1008F0A3B /* Projects.swift in Sources */,
 				18866169293E26C80040841F /* JsAlert.swift in Sources */,
-				189CFFC729B8A30B008F0A3B /* LogInfo+CoreDataClass.swift in Sources */,
 				1853BD202948682600EBAC15 /* Extension.swift in Sources */,
+				E3AD5D392CBF727C0090E12A /* CouponModel.swift in Sources */,
 				18866165293E17CB0040841F /* Loader.swift in Sources */,
 				189CFFD829B9DA50008F0A3B /* PlayViewModel.swift in Sources */,
+				E3AD5CE02CBF5ABE0090E12A /* ScanQRViewModel.swift in Sources */,
 				189CFFCA29B8A4B8008F0A3B /* CoreDataManager.swift in Sources */,
 				1853BD1929408B3700EBAC15 /* LocationManager.swift in Sources */,
 				18866173293E274F0040841F /* MyWebview.swift in Sources */,
+				E3AD5CE32CBF6AAB0090E12A /* CouponDetailView.swift in Sources */,
+				E3AD5CE52CBF6AB60090E12A /* CouponDetailViewModel.swift in Sources */,
 				189CFFC829B8A30B008F0A3B /* LogInfo+CoreDataProperties.swift in Sources */,
 				1853BD342948849600EBAC15 /* NetworkMonitor.swift in Sources */,
 				18866171293E27310040841F /* MyTextAlertView.swift in Sources */,
@@ -539,13 +575,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_ASSET_PATHS = "\"app/Preview Content\"";
-				DEVELOPMENT_TEAM = X3XQUR2FY5;
+				DEVELOPMENT_TEAM = DNSUZN5TS8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = app/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = herediumQR;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "헤라디움QR에서 카메라 권한을 요청합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
@@ -556,14 +593,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.0.8;
-				PRODUCT_BUNDLE_IDENTIFIER = heredium.art.qrapp;
+				PRODUCT_BUNDLE_IDENTIFIER = heredium.art.qrapp.dev;
 				PRODUCT_NAME = heredium;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -576,13 +613,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_ASSET_PATHS = "\"app/Preview Content\"";
-				DEVELOPMENT_TEAM = X3XQUR2FY5;
+				DEVELOPMENT_TEAM = DNSUZN5TS8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = app/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = herediumQR;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "헤라디움QR에서 카메라 권한을 요청합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
@@ -593,14 +631,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.0.8;
-				PRODUCT_BUNDLE_IDENTIFIER = heredium.art.qrapp;
+				PRODUCT_BUNDLE_IDENTIFIER = heredium.art.qrapp.dev;
 				PRODUCT_NAME = heredium;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
