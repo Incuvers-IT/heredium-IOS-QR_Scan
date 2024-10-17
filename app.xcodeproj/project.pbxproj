@@ -56,6 +56,8 @@
 		189CFFD429B9D594008F0A3B /* qr_check.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 189CFFD329B9D594008F0A3B /* qr_check.mp3 */; };
 		189CFFD629B9D5A0008F0A3B /* qr_fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 189CFFD529B9D5A0008F0A3B /* qr_fail.mp3 */; };
 		189CFFD829B9DA50008F0A3B /* PlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFFD729B9DA50008F0A3B /* PlayViewModel.swift */; };
+		E30FD27B2CC0C62D009C4C2B /* HistoryCouponView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30FD27A2CC0C62D009C4C2B /* HistoryCouponView.swift */; };
+		E30FD27D2CC0C83B009C4C2B /* HistoryCouponViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30FD27C2CC0C83B009C4C2B /* HistoryCouponViewModel.swift */; };
 		E323712F2CBE672400CF8A8A /* LogInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E323712E2CBE672400CF8A8A /* LogInfo+CoreDataClass.swift */; };
 		E3AD5CDE2CBF5AB00090E12A /* ScanQRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD5CDD2CBF5AB00090E12A /* ScanQRView.swift */; };
 		E3AD5CE02CBF5ABE0090E12A /* ScanQRViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD5CDF2CBF5ABE0090E12A /* ScanQRViewModel.swift */; };
@@ -116,6 +118,8 @@
 		189CFFD329B9D594008F0A3B /* qr_check.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = qr_check.mp3; path = app/qr_check.mp3; sourceTree = "<group>"; };
 		189CFFD529B9D5A0008F0A3B /* qr_fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = qr_fail.mp3; path = app/qr_fail.mp3; sourceTree = "<group>"; };
 		189CFFD729B9DA50008F0A3B /* PlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewModel.swift; sourceTree = "<group>"; };
+		E30FD27A2CC0C62D009C4C2B /* HistoryCouponView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCouponView.swift; sourceTree = "<group>"; };
+		E30FD27C2CC0C83B009C4C2B /* HistoryCouponViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCouponViewModel.swift; sourceTree = "<group>"; };
 		E323712E2CBE672400CF8A8A /* LogInfo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
 		E3AD5CDD2CBF5AB00090E12A /* ScanQRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRView.swift; sourceTree = "<group>"; };
 		E3AD5CDF2CBF5ABE0090E12A /* ScanQRViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRViewModel.swift; sourceTree = "<group>"; };
@@ -140,6 +144,7 @@
 		18212B0029ADF68C00580FD7 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				E30FD2792CC0C549009C4C2B /* HistoryCoupon */,
 				E3AD5CE12CBF6A940090E12A /* CouponDetail */,
 				E3AD5CDC2CBF5A880090E12A /* ScanQR */,
 				185BC621293DE42C00243308 /* LaunchScreenView.swift */,
@@ -285,6 +290,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E30FD2792CC0C549009C4C2B /* HistoryCoupon */ = {
+			isa = PBXGroup;
+			children = (
+				E30FD27A2CC0C62D009C4C2B /* HistoryCouponView.swift */,
+				E30FD27C2CC0C83B009C4C2B /* HistoryCouponViewModel.swift */,
+			);
+			path = HistoryCoupon;
+			sourceTree = "<group>";
+		};
 		E3AD5CDC2CBF5A880090E12A /* ScanQR */ = {
 			isa = PBXGroup;
 			children = (
@@ -409,6 +423,7 @@
 				18212B0F29B590C000580FD7 /* BarcodeData.swift in Sources */,
 				1853BD1D294865D300EBAC15 /* Constants.swift in Sources */,
 				18866175293E27760040841F /* String+Ext.swift in Sources */,
+				E30FD27D2CC0C83B009C4C2B /* HistoryCouponViewModel.swift in Sources */,
 				18212AFF29ADF64A00580FD7 /* LogView.swift in Sources */,
 				189CFFA929B6E212008F0A3B /* Repository.swift in Sources */,
 				189CFFC029B89A97008F0A3B /* CoreData.xcdatamodeld in Sources */,
@@ -422,6 +437,7 @@
 				189CFFD829B9DA50008F0A3B /* PlayViewModel.swift in Sources */,
 				E3AD5CE02CBF5ABE0090E12A /* ScanQRViewModel.swift in Sources */,
 				189CFFCA29B8A4B8008F0A3B /* CoreDataManager.swift in Sources */,
+				E30FD27B2CC0C62D009C4C2B /* HistoryCouponView.swift in Sources */,
 				1853BD1929408B3700EBAC15 /* LocationManager.swift in Sources */,
 				18866173293E274F0040841F /* MyWebview.swift in Sources */,
 				E3AD5CE32CBF6AAB0090E12A /* CouponDetailView.swift in Sources */,
@@ -587,7 +603,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -625,7 +641,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

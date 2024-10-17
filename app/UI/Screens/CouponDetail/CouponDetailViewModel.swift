@@ -36,12 +36,20 @@ class CouponDetailViewModel: ObservableObject {
                 isShowPopupResponse = true
                 titlePopup = "Success"
                 mesagePopup = success
+                saveCoupon()
             case .failure(let failure):
                 isShowPopupResponse = true
                 titlePopup = "Error"
                 mesagePopup = failure.errorDescription ?? ""
             }
         }
+    }
+    
+    private func saveCoupon() {
+        guard let coupon = couponDetail else { return }
+        var historyCoupon = Constants.couponHistory
+        historyCoupon.append(coupon)
+        Constants.couponHistory = historyCoupon
     }
     
 }

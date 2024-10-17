@@ -79,7 +79,7 @@ struct ScanQRView: View {
                             .padding(.trailing, 50)
                     }
                     
-                    NavigationLink(destination: LogView().navigationBarHidden(true)) {
+                    NavigationLink(destination: HistoryCouponView().navigationBarHidden(true)) {
                         RoundIconButton(icon: "log")
                     }
                     

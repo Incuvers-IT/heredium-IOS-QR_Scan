@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct CouponModel: Codable {
+struct CouponModel: Codable, Identifiable {
+    let id = UUID()
+
     let uuid: String
     let couponName: String
     let couponType: String

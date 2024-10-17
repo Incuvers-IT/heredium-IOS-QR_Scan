@@ -33,5 +33,10 @@ struct Constants {
     
     static let BASE_COUPON_DEV_URL = "http://10.4.61.210:8001/api"
     
+    static var couponHistory: [CouponModel] {
+        get { UserDefaults.standard.object([CouponModel].self, with: "coupon-hisory") ?? [] }
+        set { UserDefaults.standard.set(object: newValue, forKey: "coupon-hisory") }
+    }
+    
 }
 

@@ -20,8 +20,8 @@ extension Color {
     static let bottom_bg = Color("bottom_bg")
 
     static let primary_1 = Color("primary_1")
-    
     static let gray_alpha_50 = Color("gray_alpha_50")
+    static let gray_f5 = Color("grayF5")
 
     
     func uiColor() -> UIColor {
@@ -178,4 +178,16 @@ extension UIScreen{
    static let screenWidth = UIScreen.main.bounds.size.width
    static let screenHeight = UIScreen.main.bounds.size.height
    static let screenSize = UIScreen.main.bounds.size
+}
+
+extension UserDefaults {
+    func object<T: Codable>(_ type: T.Type, with key: String, usingDecoder decoder: JSONDecoder = JSONDecoder()) -> T? {
+        guard let data = self.value(forKey: key) as? Data else { return nil }
+        return try? decoder.decode(type.self, from: data)
+    }
+
+    func set<T: Codable>(object: T, forKey key: String, usingEncoder encoder: JSONEncoder = JSONEncoder()) {
+        let data = try? encoder.encode(object)
+        self.set(data, forKey: key)
+    }
 }
